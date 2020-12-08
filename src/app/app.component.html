@@ -1,0 +1,14 @@
+<p>
+  <mat-toolbar>
+    <span>ToDo App</span>
+  </mat-toolbar>
+</p>
+
+<mat-grid-list cols="12" rowHeight="500px">
+  <mat-grid-tile [colspan]="9">
+    <app-to-do-list class="table-list"></app-to-do-list>
+  </mat-grid-tile>
+  <mat-grid-tile [colspan]="3">
+    <app-add-new-item class="add-new"></app-add-new-item>
+  </mat-grid-tile>
+</mat-grid-list>
